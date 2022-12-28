@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+
+#warp {
+    width: 70%;
+    min-width: 900px;
+    height: 960px;
+    background-color: beige;
+    margin: 0px auto;
+}
+
+#profile {
+    margin: 0px auto;
+    padding-top: 110px;
+    width: 100%;
+    min-width: 900px;
+    height: 25%;
+    background-color: aquamarine;
+}
+
+#picture {
+    width: 240px;
+    height: 240px;
+    background-color: #c29ee0;
+    float: left;
+}
+
+#picture > img {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 3mm ridge rgba(102, 100, 139, 0.66);
+    border-radius: 15px;
+}
+
+#cont {
+    width: 100%;
+    height: 240px;
+    background-color: cadetblue;
+}
+
+#NnI {
+    float: left;
+    width: 63%;
+    max-width: 880px;
+    height: 150px;
+    background-color: gainsboro;
+    color: #737171;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+#nickName {
+    font-size: 30px;
+    color: #66648b;
+    font-weight: bold;
+
+}
+#userId {
+    font-size: 20px;
+    color: #737171;
+    font-weight: bold;
+}
+
+#cryBtn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    float: right;
+    background-color: lavender;
+}
+
+#addNav>ul {
+    position: relative;
+
+}
+
+#addNav>ul>li {
+    float: left;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -20px;
+
+}
+#addNav>ul>li>a {
+    display: block;
+    height:30px;
+    background-color: #ff8c67;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+
+
+#contents {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+#contents > h3 {
+    color: #66648b;
+    margin-top: 10px;
+    margin-left: 20px;
+    /*-webkit-text-stroke-width: 0.5px;*/
+    /*-webkit-text-stroke-color: black;*/
+}
+
+#conts_nav>ul>li {
+    float: left;
+    width: 200px;
+
+}
+
+#conts_nav>ul>li>a {
+    display: block;
+    height:30px;
+    background-color: #ff8c67;
+    text-align: center;
+    padding-top:7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+#한달사용리스트 {
+    width: 100%;
+    min-width: 900px;
+    height: 800px;
+    background-color: lightcoral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

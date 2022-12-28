@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#warp {
+    width: 70%;
+    min-width: 1000px;
+    height: 1400px;
+    background-color: beige;
+    margin: 0px auto;
+    position: relative;
+}
+
+#profile {
+    margin: 0px auto;
+    padding-top: 110px;
+    width: 100%;
+    min-width: 1000px;
+    height: 30%;
+    min-height: 350px;
+    background-color: aquamarine;
+}
+
+#picture {
+    width: 30%;
+    height: 100%;
+    min-width: 350px;
+    min-height: 350px;
+    top: 25px;
+    background-color: cadetblue;
+    float: left;
+}
+
+img {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+
+    box-sizing: border-box;
+}
+
+
+
+#pf-cont {
+    float: left;
+    width: 70%;
+    min-width: 700px;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+
+#nick {
+    font-size: 25px;
+}
+#id {
+    font-size: 18px;
+}
+#cry {
+    float: right;
+}
+
+#inventory>ul>li>a {
+    display:block;
+    width:150px;
+    height:30px;
+    background-color: #c29ee0;
+    text-align: center;
+    padding-top:8px;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    float: left;
+}
+
+#contents {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+#conts_nav {
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 70px;
+    background-color: gainsboro;
+}
+
+#conts_nav>ul>li>a{
+    display:block;
+    width:300px;
+    height:70px;
+    background-color: #c29ee0;
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
