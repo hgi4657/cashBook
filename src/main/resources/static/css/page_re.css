@@ -15,23 +15,25 @@ li {
     width: 70%;
     min-width: 900px;
     height: 960px;
-    background-color: beige;
+    /*background-color: beige;*/
     margin: 0px auto;
 }
 
 #profile {
     margin: 0px auto;
     padding-top: 110px;
+    padding-left: 20px;
     width: 100%;
     min-width: 900px;
     height: 25%;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
+    box-sizing: border-box;
 }
 
 #picture {
     width: 240px;
     height: 240px;
-    background-color: #c29ee0;
+    /*background-color: #c29ee0;*/
     float: left;
 }
 
@@ -47,7 +49,8 @@ li {
 #cont {
     width: 100%;
     height: 240px;
-    background-color: cadetblue;
+    background-color: rgba(147, 149, 151, 0.06);
+    box-sizing: border-box;
 }
 
 #NnI {
@@ -55,7 +58,7 @@ li {
     width: 63%;
     max-width: 880px;
     height: 150px;
-    background-color: gainsboro;
+    /*background-color: gainsboro;*/
     color: #737171;
     padding-top: 50px;
     padding-left: 20px;
@@ -75,29 +78,29 @@ li {
 
 #cryBtn {
     position: relative;
+    top: -32px;
     width: 60px;
     height: 60px;
     float: right;
-    background-color: lavender;
+    /*background-color: lavender;*/
 }
 
 #addNav>ul {
     position: relative;
-
 }
 
 #addNav>ul>li {
     float: left;
-    width: 200px;
-    margin-left: 40px;
-    margin-top: -20px;
+    width: 250px;
 
 }
-#addNav>ul>li>a {
-    display: block;
+#addNav>nav>ul>li>a {
+    margin-top: 20px;
+    float: left;
+    width: 150px;
+    display: inline-block;
     height:30px;
-    background-color: #ff8c67;
-    text-align: center;
+    /*background-color: #ff8c67;*/
     padding-top:7px;
     box-sizing: border-box;
     font-size: 15px;
@@ -110,6 +113,7 @@ li {
     width: 100%;
     height: 100%;
     background-color: deepskyblue;
+    box-sizing: border-box;
 }
 
 #contents > h3 {
@@ -138,14 +142,10 @@ li {
 
 #한달사용리스트 {
     width: 100%;
-    min-width: 900px;
     height: 800px;
     background-color: lightcoral;
+    box-sizing: border-box;
 }
-
-
-
-
 
 
 
