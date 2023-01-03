@@ -14,15 +14,16 @@ li {
 #warp {
     width: 70%;
     min-width: 900px;
-    height: 960px;
-    /*background-color: beige;*/
+    height: 100%;
+    background-color: rgba(224, 224, 224, 0.56);
     margin: 0px auto;
+
+
 }
 
 #profile {
     margin: 0px auto;
     padding-top: 110px;
-    padding-left: 20px;
     width: 100%;
     min-width: 900px;
     height: 25%;
@@ -49,7 +50,7 @@ li {
 #cont {
     width: 100%;
     height: 240px;
-    background-color: rgba(147, 149, 151, 0.06);
+    /*background-color: rgba(147, 149, 151, 0.06);*/
     box-sizing: border-box;
 }
 
@@ -109,10 +110,10 @@ li {
 
 
 #contents {
-    margin: 0px auto;
+    /*margin: 0px auto;*/
     width: 100%;
     height: 100%;
-    background-color: deepskyblue;
+    /*background-color: deepskyblue;*/
     box-sizing: border-box;
 }
 
@@ -130,30 +131,126 @@ li {
 
 }
 
-#conts_nav>ul>li>a {
+#conts_nav {
+    width: 1200px;
+    height: 35px;
+}
+
+#conts_nav>ul>li {
     display: block;
     height:30px;
-    background-color: #ff8c67;
+    /*background-color: #939597;*/
     text-align: center;
+    margin-top: 7px;
+    margin-bottom: 8px;
     padding-top:7px;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+
 }
+
 
 #한달사용리스트 {
     width: 100%;
     height: 800px;
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
     box-sizing: border-box;
+}
+
+#한달사용리스트 > div {
+    margin-top: 10px;
+    padding-left: 40px;
+    color: #66648b;
+}
+
+
+#Mcont {
+    float: left;
+    margin-left: 10px;
+}
+
+#grp {
+    width: 350px;
+    height: 350px;
+    background-color: #66648b;
+}
+
+#mAll {
+    width: 350px;
+    height: 70px;
+    background-color: #c29ee0;
+}
+
+#lis {
+    margin-top: 10px;
+}
+
+#lis table {
+    margin: 0px auto;
+    border: 1px #a39485 solid;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    min-width: 550px;
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
 }
 
 
 
 
 
+#위시리스트 {
+    width: 98%;
+    height: 800px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
 
 
+/* 고정지출목록*/
+#고정지출목록 {
+    width: 98%;
+    height: 800px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
 
 
+table {
+    border: 1px #a39485 solid;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,.25);
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+thead {
+    font-weight: bold;
+    color: #66648b;
+    background-color: #939597;
+}
+
+tbody td {
+    border-bottom: 1px solid rgba(91, 101, 133, 0.61);
+    background-color: #ffffff;
+}
+
+td {
+    padding: 1em .4em;
+    vertical-align: middle;
+}
+
+th {
+    border-bottom: 1px solid rgba(85, 135, 161, 0.9);
+}
 
 

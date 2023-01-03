@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../static/css/page_re.css">
+    <script src="../static/js/page_re.js" defer></script>
 </head>
 <body>
 
@@ -49,13 +50,60 @@
                 <h3>이용 내역</h3>
                 <nav id="conts_nav">
                     <ul>
-                        <li><a href="">한달 사용 내역</a></li>
-                        <li><a href="">위시리스트</a></li>
-                        <li><a href="">고정지출 목록</a></li>
+                        <li class="cont" name="한달사용리스트">한달 사용 내역</li>
+                        <li class="cont" name="위시리스트">위시리스트</li>
+                        <li class="cont" name="고정지출목록">고정지출 목록</li>
                     </ul>
                 </nav>
 
-                <div id="한달사용리스트">
+
+                <div>
+
+
+
+                </div>
+
+                <div id="한달사용리스트" style="display: block">
+                    <div><h2>23년 1월 사용내역</h2></div>
+                    <div id="Mcont">
+                        <div id="grp">그래프가 아마 들어갈듯</div>
+                        <div id="mAll">총 사용금액 : 123,456원</div>
+                    </div>
+
+                    <div id="lis">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td width="200">결제일</td>
+                                <td>이름</td>
+                                <td>금액</td>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>1일</td>
+                                <td>통신비</td>
+                                <td>45,000원</td>
+                            </tr>
+
+                            <tr>
+                                <td>10일</td>
+                                <td>월세</td>
+                                <td>350,000원</td>
+                            </tr>
+
+                            <tr>
+                                <td>15일</td>
+                                <td>정기적금</td>
+                                <td>500,000원</td>
+                            </tr>
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
 
 
 
@@ -70,9 +118,98 @@
 
                 </div>
 
+                <div id="위시리스트" style="display: none">
+
+                    <table>
+                        <thead>
+                        <tr>
+                            <td width="100">별점</td>
+                            <td width="300">이름</td>
+                            <td width="300">메모</td>
+                            <td width="200">금액</td>
+                            <td width="100">날짜</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr>
+                            <td>★★★★☆</td>
+                            <td>로또1등 당첨권</td>
+                            <td>젭발1등세요</td>
+                            <td>500,000</td>
+                            <td>2022/12/29</td>
+                        </tr>
+
+                        <tr>
+                            <td>★★☆☆☆</td>
+                            <td>스쿠터</td>
+                            <td>사고싶은데 돈없음</td>
+                            <td>2,000,000</td>
+                            <td>2022/12/29</td>
+                        </tr>
+
+                        <tr>
+                            <td>★★☆☆☆</td>
+                            <td>스쿠터</td>
+                            <td>사고싶은데 돈없음</td>
+                            <td>2,000,000</td>
+                            <td>2022/12/29</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>★★☆☆☆</td>
+                            <td>스쿠터</td>
+                            <td>사고싶은데 돈없음</td>
+                            <td>2,000,000</td>
+                            <td>2022/12/29</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div id="고정지출목록" style="display: none">
+                    <div>
+                        <table>
+                            <thead>
+                            <tr>
+                                <td width="200">결제일</td>
+                                <td>이름</td>
+                                <td>금액</td>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>1일</td>
+                                <td>통신비</td>
+                                <td>45,000원</td>
+                            </tr>
+
+                            <tr>
+                                <td>10일</td>
+                                <td>월세</td>
+                                <td>350,000원</td>
+                            </tr>
+
+                            <tr>
+                                <td>15일</td>
+                                <td>정기적금</td>
+                                <td>500,000원</td>
+                            </tr>
+
+
+                            </tbody>
+
+                        </table>
 
 
 
+                    </div>
+                </div>
 
 
 
