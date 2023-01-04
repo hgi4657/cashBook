@@ -81,9 +81,15 @@ nextMonth.item(0).addEventListener('click', () => {
 
 // ================================================================= //
 
+// 연도 가져오기
+const Year = date.getFullYear();
+// 월 가져오기
+const Month = date.getMonth();
+// 일 가져오기
+const TDate = date.getDate();
 
 
-
+document.querySelector('#toDate').textContent = `${Year}년 ${Month + 1}월 ${TDate}일`;
 
 
 
