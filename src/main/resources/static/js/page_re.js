@@ -4,7 +4,7 @@ const 한달사용리스트 = document.getElementById("한달사용리스트");
 const 위시리스트 = document.getElementById("위시리스트");
 const 고정지출목록 = document.getElementById("고정지출목록");
 
-// 클릭 시 해당 div 열기
+// 클릭 시 해당 div 열기 (완료)
 for (let i = 0; i < cont.length; i++) {
     cont.item(i).addEventListener('click', () => {
         const nav_name = document.getElementById(cont.item(i).getAttribute("name"));
