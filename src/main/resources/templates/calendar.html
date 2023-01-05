@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,6 +8,7 @@
     <script src="../static/js/calendar.js" defer></script>
 </head>
 <body>
+  <!-- 달력 -->
   <div id="calendar">
     <div id="header">
         <div id="nav">
@@ -29,17 +30,31 @@
     <div id="dates"></div>
 
   </div>
+
+  <!-- 일정 리스트 -->
   <div id="schedule">
       <div id="sch_nav">
           <div id="toDate"></div>
-          <button id="add_btn"><i class="fa-solid fa-plus fa-2x"></i></button>
       </div>
-      <div>
-          일정 리스트 들어갈 곳
+      <div id="sch_table">
+          <div class="anniversary">
+              일단 기념일들 출력할 화면
+              <ul>
+                  <li>생일이오</li>
+              </ul>
+          </div>
+
+          <div class="statement">
+              돈 나갈거 출력할 화면
+
+          </div>
 
       </div>
 
   </div>
+
+  <!-- 하단 고정 추가버튼 -->
+  <button id="add_btn" title="일정 추가하기"><i class="fa-solid fa-plus fa-2x"></i></button>
 
 
 </body>
